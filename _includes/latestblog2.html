@@ -1,0 +1,37 @@
+<!--     *********     BLOGS 2      *********      -->
+<div class="blogs-2" id="blogs-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+                <h2 class="title">블로그 포스트</h2>
+                <br>
+                <div class="row">
+                  {% for post in site.posts limit: 3 %}
+                    <div class="col-md-4">
+                        <div class="card card-plain card-blog">
+                            <div class="card-header card-header-image">
+                                <a href="#">
+                                <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
+
+                                    <img class="img img-raised" src="{{ site.baseurl }}/{{ post.image }}">
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-category text-info">{{ post.categories }}</h6>
+                                <h4 class="card-title">
+                                    <a href="#">{{ post.title }}</a>
+                                </h4>
+                                <p class="card-description">
+                                  {{ post.excerpt }}
+                                  <a href="#"> Read More </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--     *********    END BLOGS 2      *********      -->

@@ -1,0 +1,81 @@
+---
+layout: default-contactus
+title: 경희무교로한의원
+description: 통증, 근막통증증후군, 디스크, 체질개선 다이어트, 만성피로
+---
+
+<div id="contactUsMap" class="big-map"></div>
+
+	<div class="main main-raised">
+		<div class="contact-content">
+    		<div class="container">
+            	<h2 class="title">Send us a message</h2>
+				<div class="row">
+					<div class="col-md-6">
+						<p class="description">상담이나 문의사항을 남겨주시면 답변해드리겠습니다.<br><br>
+						</p>
+						<form role="form" id="contact-form" action="https://getsimpleform.com/messages?form_api_token=a8977f5e3a01e87e15a788e0e27cc375" method="post">
+              <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+              <input type='hidden' name='redirect_to' value='http://mgrdoc.com' />
+              <!-- all your input fields here.... -->
+              <div class="form-group">
+                  <label for="name" class="bmd-label-floating">Your name</label>
+                  <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                  <label for="exampleInputEmails" class="bmd-label-floating">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmails">
+                  <span class="bmd-help">We'll never share your email with anyone else.</span>
+              </div>
+              <div class="form-group">
+                  <label for="phone" class="bmd-label-floating">Phone</label>
+                  <input type="text" class="form-control" id="phone">
+              </div>
+              <div class="form-group label-floating">
+                  <label class="form-control-label bmd-label-floating" for="message"> Your message</label>
+                  <textarea class="form-control" rows="6" id="message"></textarea>
+              </div>
+              <div class="submit text-center">
+                  <input type="submit" class="btn btn-primary btn-raised btn-round" value="Contact Us">
+              </div>
+						</form>
+					</div>
+                	<div class="col-md-4 ml-auto">
+    		        	<div class="info info-horizontal">
+    						<div class="icon icon-primary">
+    							<i class="material-icons">pin_drop</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">찾아오시는 길</h4>
+    							<p>{{ site.data.info.mgr.address }}
+    							</p>
+    						</div>
+    		        	</div>
+                        <div class="info info-horizontal">
+    						<div class="icon icon-primary">
+    							<i class="material-icons">phone_iphone</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">전화</h4>
+    							<p>{{ site.data.info.mgr.phone }}
+    							</p>
+    						</div>
+    		        	</div>
+    		        	<div class="info info-horizontal">
+    						<div class="icon icon-primary">
+    							<i class="material-icons">business_center</i>
+    						</div>
+    						<div class="description">
+    							<h4 class="info-title">Legal Information</h4>
+    							<p>경희무교로한의원<br>
+                                    대표 &middot; 성 기 원<br>
+                                    사업자등록번호 &middot; 211-90-72503<br>
+                                    FAX &middot; 070-7759-7703
+    							</p>
+    						</div>
+    		        	</div>
+				    </div>
+               </div>
+            </div>
+		</div>
+    </div>

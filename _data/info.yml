@@ -1,0 +1,43 @@
+mgr:
+  opening:
+    평일 오전 9:30 -- 오후 7:00<br>
+    토요일 오전 10:00 -- 오후 1:00<br>
+    일요일/공휴일 휴진입니다.
+  weekdays: 오전 9:30 -- 오후 7:00
+  saturday: 오전 10:00 -- 오후 1:00
+  hollydays: 휴진
+  address:
+    서울중구무교로16 대한체육회관7층(토로짐/마마스/동해/참숯골 건물)
+  phone: 070-7759-7779
+  fax: 070-7759-7703
+  location: (토로짐, 마마스, 동해, 참숯골 건물)
+  credit:
+      경희무교로한의원|대표성기원|서울중구무교로16대한체육회관7층|전화<a href="tel:+827077597779">070-7759-7779</a>|사업자등록번호211-90-72503<br>
+      &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="material-icons">favorite</i> by mgrdoc.com
+  credit-en:
+      KyungheeMugyoroMedicalClinic|Dr.SeongKiwon|7F.16Mugyoro,Jung-gu,Seoul|Phone:<a href="tel:+827077597779">070-7759-7779</a><br>
+      &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="material-icons">favorite</i> by mgrdoc.com
+
+director:
+  name: 원장 성 기 원
+  nameEn: Dr. Seong Kiwon
+  tag: 전문의/한의학박사
+  say: Lorem ipsum
+  history:
+    경희대학교 한의과대학 졸업, 경희대학교 한의과대학원 석사/박사학위, 한방전문의<br>
+    나사렛한방병원 진료과장, 압구정코편한한의원 대표원장<br>
+    2009 대한민국고객감동그랑프리 명의부문 대상선정,
+    2009 네이버지식인 상담한의사 위촉<br>
+    대한한의학회 정회원, 대한한방내과학회 정회원, 대한한방피부미용학회 정회원
+  works:
+    ---연구 논문---<br />
+    Microarray 기법을 이용한 전립선비대 동물모델에서 薑黃의 작용기전 연구・
+    The Effect of Oral Curcuma longa ingestion on the gene expression in a Rat Model of Benign Prostatic Hyperplasia using microarray analysis. ―박사학위・
+    香砂平胃散으로 호전된 위암으로 인한 위장절제술 後遺症 환자의 臨床證例 보고・
+    六味地黃湯 및 補中益氣湯이 Rat의 피부섬유아세포, 사구체메산지움세포 및 혈관내피세포의 老化 遲延에 미치는 影向 ―석사학위・
+    급성기 뇌경색 환자의 두통에 대한 破塞滑血湯의 임상적 효능・
+    당뇨를 동반한 중풍환자의 皮膚 瘙痒症에 대한 防風通聖散 투여 2례 등
+  membership:
+    대한한의학회 정회원<br>
+    대한한방내과학회 정회원<br>
+    대한한방피부미용학회 정회원

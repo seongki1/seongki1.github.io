@@ -1,0 +1,34 @@
+<!--     *********    PROJECTS 3     *********      -->
+    <div class="projects-3 section-dark" id="projects-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <h6 class="category text-muted">진료과목</h6>
+                    <h2 class="title">Clinics</h2>
+                </div>
+            </div>
+            <div class="row">
+              {% for clinic in site.clinics limit:6 %}
+                <div class="col-md-3 ml-auto">
+                    <div class="card card-plain">
+                        <a href="#pablo">
+                            <div class="card-header card-header-image">
+                                <img src="{{ site.baseurl }}/{{ clinic.image }}">
+                            </div>
+                        </a>
+                        <div class="card-body ">
+                            <h6 class="card-category">{{ clinic.titleEn }}</h6>
+                            <a href="#pablo">
+                                <h4 class="card-title">{{ clinic.title }}</h4>
+                            </a>
+                            <p class="card-description">
+                               {{ clinic.description }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!--     *********    END PROJECTS 3      *********      -->

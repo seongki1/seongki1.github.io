@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {{ site.description }}</title>
+
+  {% include meta.html %}
+
+</head>
+
+<body class="index-page">
+  {% include nav.html %}
+	{% include header.html %}
+
+  {{ content }}
+
+
+  {% include pricing.html %}
+  {% include footer.html %}
+
+</body>
+  {% include scripts.html %}
+  <script>
+    $(document).ready(function() {
+        materialKitDemo.initContactUs2Map();
+    });
+  </script>
+</html>
