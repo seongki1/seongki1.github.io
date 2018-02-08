@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 avatar: /assets/img/logo122.png
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://seongki1.github.io
+url: http://mgrdoc.com
 
 disqus: mgrdoc
 
