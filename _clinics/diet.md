@@ -2,7 +2,7 @@
 layout: default-clinic
 title: 체질개선 다이어트
 titleEn: Slim Diet
-description: lorem ipsum
+description: 체질개선 다이어트는, 체질개선을 통해 우리 몸의 유산소기능을 강화하며, 효과적으로 체지방을 태우는 몸으로 개선될 수 있도록 합니다.
 image: assets/img/clinics/slim.jpg
 ---
 <div id="acordeon">

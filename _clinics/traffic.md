@@ -2,7 +2,7 @@
 layout: default-clinic
 title: 교통사고 치료
 titleEn: Whiplash
-description: lorem ipsum
+description: 교통사고 후유증 한방치료― 침, 한약, 봉약침, 추나요법, 물리요법 등 전액 자동차보험의 혜택을 받으실 수 있습니다. 교통사고로 인한 척추와 주변 근육, 인대의 손상을 근본적으로 회복시켜 건강한 일상 생활로 빨리 복귀하실 수 있도록 합니다.
 image: assets/img/clinics/ta.jpg
 ---
 <div id="acordeon">

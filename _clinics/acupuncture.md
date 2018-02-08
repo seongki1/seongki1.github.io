@@ -2,7 +2,7 @@
 layout: default-clinic
 title: 근막통증증후군
 titleEn: Myofascial Pain Syndrome
-description: lorem ipsum
+description: 근막통증증후근(근막동통증후군)이란, 근육의 국소부위 통증 및 압통이 있고, 동통유발점(트리거포인트)과 다른 특정한 부위에 방사통이 발생하며, 관절운동 제한 등의 소견이 나타나는 임상 증후군입니다.
 image: assets/img/clinics/myofascial.jpg
 ---
 <div id="acordeon">
