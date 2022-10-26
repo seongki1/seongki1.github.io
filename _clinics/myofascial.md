@@ -75,5 +75,4 @@ image: assets/img/clinics/myofascial.jpg
         </div>
       </div>
 
-    </div>
-    </div><!--  end acordeon -->
+

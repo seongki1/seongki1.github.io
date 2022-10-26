@@ -60,5 +60,5 @@ image: assets/img/clinics/jindan.jpg
         </div>
       </div>
 
-    </div>
+  <!--</div>
     </div><!--  end acordeon -->

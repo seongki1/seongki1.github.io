@@ -59,7 +59,7 @@ image: assets/img/clinics/slim.jpg
             <blockquote>경희무교로한의원의 체질개선 한약은, 경희대학교 석/박사진의 오랜 연구와 임상시험을 거쳐 개발되어, 쉽고 성공적인 다이어트를 약속드릴수 있습니다!</blockquote>
             </p>
 
-          </div>
+  <!--       </div>
         </div>
       </div>
 

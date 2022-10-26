@@ -66,5 +66,3 @@ image: assets/img/clinics/ta.jpg
         </div>
       </div>
 
-    </div>
-    </div><!--  end acordeon -->
